@@ -1,6 +1,4 @@
-Scientific Question: For animals that are known to be less susceptible to 
-cancer, would they have similar p53 protein sequences as human p53 because 
-human p53 is an important tumor suppressor protein that reduces the risk of cancer in humans?
+Scientific Question: For animals that are known to be less susceptible to cancer, would they have similar p53 protein sequences as human p53 because human p53 is an important tumor suppressor protein that reduces the risk of cancer in humans?
 
 Background: In humans, p53 is an important tumor suppressor protein that reduces the risk for cancer. P53 is discovered in 1979 and is made by a gene known as TP53. P53 prevents cells from growing and dividing too fast or in an uncontrolled way. P53 is located in the nucleus of cells throughout the body. The loss of p53 can lead to the multiplication of cancer cells even when the cancer cells do not have growth stimuli (Benedict 2018). Therefore, having p53 is crucial in preventing cancer and it plays a very significant role in lowering the risk for tumors and cancer. The p53 sequences of human, chimpanzee, dogs, and elephants used in this code are obtained from NCBI. All the p53 sequences are downloaded from NCBI as fasta files. 
 
