@@ -1,12 +1,17 @@
 Scientific Question: For animals that are known to be less susceptible to cancer, would they have similar p53 protein sequences as human p53 because human p53 is an important tumor suppressor protein that reduces the risk of cancer in humans?
 
+
 Background: In humans, p53 is an important tumor suppressor protein that reduces the risk for cancer. P53 is discovered in 1979 and is made by a gene known as TP53. P53 prevents cells from growing and dividing too fast or in an uncontrolled way. P53 is located in the nucleus of cells throughout the body. The loss of p53 can lead to the multiplication of cancer cells even when the cancer cells do not have growth stimuli (Benedict 2018). Therefore, having p53 is crucial in preventing cancer and it plays a very significant role in lowering the risk for tumors and cancer. The p53 sequences of human, chimpanzee, dogs, and elephants used in this code are obtained from NCBI. All the p53 sequences are downloaded from NCBI as fasta files. 
+
 
 Scientific Hypothesis: If an animal is known to be less susceptible to cancer, then it will contain similar p53 sequence as humans because p53 is an important tumor suppressor protein in humans.
 
+
 In order to test the scientific hypothesis, two analyses were done using bioinfomatics method of multiple sequence alignment and pairwise sequence alignment. Then a histogram is created to visualize the perent identity between human-chimpanzee p53, human-dogs p53, and human-elephants p53. Multiple sequence alignment (msa) is performed to generate an alignment of multiple sequences, four in this case, so we can see where the sequences are similar. MSA can help us assess sequence conservation of protein domains, infer homology, and infer evolutionary relationships among the aligned sequences. On the other hand, pairwise sequence alignment can align two or more sequences as well, but pairwise sequence alignment uses a scoring system where the alignment score would be matches (+1) or mismatches (-1) between sequences. Pairwise sequence alignment is used to identify the regions of similarity that may indicate significant functional, structural, and evolutionary relationships between the aligned sequences. In this case, msa of the four sequences (human p53, chimpanzee p53, dogs p53, elephants p53) are done. Three Pairwise sequence alignments (human and chimpanzee p53, human and dogs p53, human and elephants p53) are done. The necessary data (p53 sequences of human, chimpanzee, dogs, elephants) are downloaded from NCBI.
 
+
 I used 8 packages in total for performing the entire code. Before loading and using the packages, I need to install the packages first by using install.packages(). Here, I will define all the packages used in the code. 
+
 
 1) seqinr: this package is responsible to perform data analysis and data management. Most used function from this package would be read.fasta where it reads the nucleotide or amino-acid sequences from a file in FASTA format.
 
